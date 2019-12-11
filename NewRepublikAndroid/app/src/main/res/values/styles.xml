@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="AppTheme" 
+		parent="@android:style/Theme.Material.Light.DarkActionBar"/>
+	
+	<style name="RA.Splash" 
+		parent="@android:style/Theme.Material.NoActionBar"/>
+	<style name="RA.Text.Main" parent="">
+		<item name="android:textSize">@dimen/ra_text_a</item>
+		<item name="android:textColor">@color/ra_app_accent_a</item>
+		<item name="android:textStyle">bold|italic</item>
+		<item name="android:fontFamily">sans-serif-light</item>
+		
 	</style>
+	
+	<style name="RA.SubText.Main" parent="">
+		<item name="android:textSize">@dimen/ra_text_b</item>
+		<item name="android:textColor">@color/ra_app_accent_a</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:fontFamily">sans-serif</item>
+
+	</style>
+	
+	
 </resources>

@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/ra_item"
+        android:title="@string/ra_menu_title"/>
+	
+	<item
+        android:id="@+id/ra_item_a"
+        android:title="@string/ra_menu_title_a"/>
+	
+	<item
+        android:id="@+id/ra_item_b"
+        android:title="@string/ra_menu_title_b"/>
+	
+	<item
+        android:id="@+id/ra_item_c"
+        android:title="@string/ra_menu_title_c"/>
+	
+	<item
+        android:id="@+id/ra_item_d"
+        android:title="@string/ra_menu_title_d"/>
+    
+</menu>

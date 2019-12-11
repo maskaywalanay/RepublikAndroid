@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceScreen
+		android:title="Menu satu"
+		android:summary="Sesuaikan warna filter layar"/>
+	<PreferenceScreen
+		android:title="Menu dua"
+		android:summary="Sesuaikan warna filter layar"/>
+	<PreferenceScreen
+		android:title="Menu tiga"
+		android:summary="Sesuaikan warna filter layar"/>
+	<PreferenceScreen
+		android:title="Menu empat"
+		android:summary="Sesuaikan warna filter layar"/>
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="ra_image_splash_width">120dp</dimen>
+	<dimen name="ra_image_splash_height">120dp</dimen>
+	<dimen name="ra_progress_width">35dp</dimen>
+	<dimen name="ra_progress_height">35dp</dimen>
+	<dimen name="ra_splash_container_margin">16dp</dimen>
+	<dimen name="ra_text_a">16dp</dimen>
+	<dimen name="ra_text_b">14dp</dimen>
+	
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="ra_app_accent_a">@android:color/black</color>
+	<color name="ra_app_accent_b">@android:color/white</color>
+	<color name="ra_app_accent_c">@android:color/transparent</color>
+	<color name="ra_app_accent_d">#FFAB092B</color>
+	<color name="ra_app_accent_e">#FF9c233D</color>
+	<color name="ra_app_accent_f">#FFC20029</color>
+	<color name="ra_app_accent_g">#FFE10030</color>
+	 
+	
+	
+</resources>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">Republik Android</string>
-    <string name="app_title_a">Republik Android</string>
-	<string name="app_title_b">Republik Android</string>
-	<string name="app_title_c">Republik Android</string>
-	<string name="app_title_d">Republik Android</string>
-	<string name="app_title_e">Republik Android</string>
-	<string name="app_title_f">Republik Android</string>
-	<string name="app_title_g">Republik Android</string>
+    <string name="ra_splash_text">Mohon tunggu sedang memuat ...</string>
+	<string name="ra_menu_title">Setting</string>
+	<string name="ra_menu_title_a">Setting satu</string>
+	<string name="ra_menu_title_b">Setting dua</string>
+	<string name="ra_menu_title_c">Setting tiga</string>
+	<string name="ra_menu_title_d">Keluar</string>
+	<string name="ra_toast_exit">Keluar dan akhiri aktivitas ... </string>
 	<string name="app_title_h">Republik Android</string>
 	<string name="app_title_i">Republik Android</string>
 	<string name="app_title_j">Republik Android</string>
