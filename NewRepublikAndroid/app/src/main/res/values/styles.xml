@@ -5,6 +5,9 @@
 	
 	<style name="RA.Splash" 
 		parent="@android:style/Theme.Material.NoActionBar"/>
+	
+	<style name="RA.Float.Menu" parent="@*android:style/Theme.Material.Dialog.NoActionBar"/>
+	
 	<style name="RA.Text.Main" parent="">
 		<item name="android:textSize">@dimen/ra_text_a</item>
 		<item name="android:textColor">@color/ra_app_accent_a</item>

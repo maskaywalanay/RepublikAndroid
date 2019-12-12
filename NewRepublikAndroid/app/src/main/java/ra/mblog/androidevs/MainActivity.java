@@ -8,14 +8,15 @@ import android.view.*;
 import android.content.*;
 import android.graphics.drawable.*;
 import android.graphics.*;
+import android.view.View.*;
 
 public class MainActivity extends Activity 
 {
 	
 	WebView rablog;
-	String url;
-	
-	
+	String url = "http://tintahitam94.blogspot.com/";
+	FrameLayout frameLayout;
+	ImageView floatBtn;
 	
 	
     @Override
@@ -24,17 +25,23 @@ public class MainActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 		
-		
-		
-		
-		url = "http://tintahitam94.blogspot.com/";
-		
 		rablog = (WebView)findViewById(R.id.ra_home);
 		rablog.setWebViewClient(new BlogClient());
 		rablog.getSettings().setDisplayZoomControls(true);
 		rablog.getSettings().setJavaScriptEnabled(true);
 		rablog.loadUrl(url);
-		
+		frameLayout = (FrameLayout)findViewById(R.id.ra_frame_container);
+		floatBtn = (ImageView)findViewById(R.id.ra_button);
+		floatBtn.setOnClickListener(new OnClickListener(){
+
+				@Override
+				public void onClick(View p1)
+				{
+					startActivity(new Intent(MainActivity.this,FloatMenu.class));
+					
+				}
+				
+		});
 	}
 		
 	private class BlogClient extends WebViewClient
@@ -63,11 +70,12 @@ public class MainActivity extends Activity
 		switch (item.getItemId()){
 			
 			case R.id.ra_item:
-				
+				rablog.reload();
 				return true;
 				
 			case R.id.ra_item_a:
-				
+				frameLayout.refreshDrawableState();
+		
 				return true;
 				
 			case R.id.ra_item_b:

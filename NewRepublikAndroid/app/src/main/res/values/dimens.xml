@@ -7,5 +7,9 @@
 	<dimen name="ra_splash_container_margin">16dp</dimen>
 	<dimen name="ra_text_a">16dp</dimen>
 	<dimen name="ra_text_b">14dp</dimen>
+	<dimen name="ra_float_btn_height">55dp</dimen>
+	<dimen name="ra_float_btn_width">55dp</dimen>
+	<dimen name="ra_float_btn_margin_bottom">14dp</dimen>
+	<dimen name="ra_float_btn_margin_right">14dp</dimen>
 	
 </resources>

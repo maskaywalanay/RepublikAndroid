@@ -6,6 +6,7 @@
 	android:gravity="center">
 
 	<FrameLayout
+		android:id="@+id/ra_frame_container"
 		android:layout_height="match_parent"
 		android:layout_width="match_parent">
 
@@ -15,7 +16,15 @@
 			android:layout_width="match_parent"
 			android:layout_gravity="center"/>
 
-		
+		<ImageView
+			android:src="@drawable/ic_launcher"
+			android:id="@+id/ra_button"
+			android:layout_height="@dimen/ra_float_btn_height"
+			android:layout_width="@dimen/ra_float_btn_width"
+			android:layout_gravity="bottom|right"
+			android:layout_marginBottom="@dimen/ra_float_btn_margin_bottom"
+			android:layout_marginRight="@dimen/ra_float_btn_margin_right"
+			android:scaleType="fitXY"/>
 
 	</FrameLayout>
 

@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Republik Android</string>
     <string name="ra_splash_text">Mohon tunggu sedang memuat ...</string>
-	<string name="ra_menu_title">Setting</string>
+	<string name="ra_menu_title">Segarkan</string>
 	<string name="ra_menu_title_a">Setting satu</string>
 	<string name="ra_menu_title_b">Setting dua</string>
 	<string name="ra_menu_title_c">Setting tiga</string>
